@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zapdosads.com/sitemap.xml
