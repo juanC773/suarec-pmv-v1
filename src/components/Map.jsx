@@ -103,7 +103,7 @@ export default function ExpertsMap() {
   };
 
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-white to-blue-50">
+    <section id="map" className="py-20 px-6 bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -116,8 +116,8 @@ export default function ExpertsMap() {
         </div>
 
         {/* Map Container */}
-        <div id="mapa" className="bg-white rounded-3xl shadow-2xl p-8 max-w-5xl mx-auto">
-          <div className="relative w-full aspect-square rounded-2xl border-4 border-blue-200 overflow-hidden">
+        <div className="bg-white rounded-3xl shadow-2xl p-4 md:p-8 max-w-5xl mx-auto">
+          <div className="relative w-full h-[500px] md:h-[600px] lg:aspect-square rounded-2xl border-4 border-blue-200 overflow-hidden">
             {/* Google Maps Embed de Cali */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127289.56207796146!2d-76.5624694!3d3.4516467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1sen!2sco!4v1234567890"
@@ -178,7 +178,10 @@ export default function ExpertsMap() {
               <div className="w-4 h-4 bg-red-500 rounded-full border-2 border-white"></div>
               <span className="text-sm text-gray-700 font-medium">Tu ubicación</span>
             </div>
-           
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-4 bg-blue-500 rounded-full border-2 border-white"></div>
+              <span className="text-sm text-gray-700 font-medium">Expertos disponibles</span>
+            </div>
           </div>
         </div>
 
