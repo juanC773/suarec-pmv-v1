@@ -35,7 +35,7 @@ export default function Navbar() {
             
             {/* CTA Button */}
             <a
-              href="https://wa.me/573001234567?text=Hola%2C%20necesito%20ayuda%20con"
+              href="https://www.chatbase.co/n9eZK-TeZ-jyBVL8oBeOz/help"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:shadow-lg transition-all duration-200"

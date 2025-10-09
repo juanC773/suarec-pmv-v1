@@ -191,7 +191,7 @@ export default function ExpertsMap() {
             Encuentra un experto cerca de ti en segundos
           </p>
           <a
-            href="https://wa.me/573001234567?text=Hola%2C%20necesito%20un%20experto%20cerca"
+            href="https://www.chatbase.co/n9eZK-TeZ-jyBVL8oBeOz/help"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300"

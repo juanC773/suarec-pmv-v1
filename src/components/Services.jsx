@@ -150,10 +150,15 @@ export default function ServicesSection() {
               <p className="text-gray-600 text-sm leading-relaxed text-center">
                 {service.description}
               </p>
-              <div className="mt-4 pt-4 border-t border-gray-100 text-center">
-                <button className="text-gray-900 font-semibold text-sm hover:text-blue-600 transition-colors">
+                  <div className="mt-4 pt-4 border-t border-gray-100 text-center">
+                <a
+                  href="https://www.chatbase.co/n9eZK-TeZ-jyBVL8oBeOz/help"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-900 font-semibold text-sm hover:text-blue-600 transition-colors inline-block"
+                >
                   Solicitar →
-                </button>
+                </a>
               </div>
             </div>
           ))}
@@ -165,12 +170,12 @@ export default function ServicesSection() {
             ¿No encuentras lo que buscas?
           </p>
           <a
-            href="https://wa.me/573001234567?text=Hola%2C%20necesito%20ayuda%20con"
+            href="https://www.chatbase.co/n9eZK-TeZ-jyBVL8oBeOz/help"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 hover:shadow-lg transition-all duration-300"
           >
-            Contáctanos por WhatsApp
+            Contáctanos
           </a>
         </div>
       </div>
