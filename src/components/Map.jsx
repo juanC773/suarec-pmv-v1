@@ -103,7 +103,7 @@ export default function ExpertsMap() {
   };
 
   return (
-    <section id="map" className="py-20 px-6 bg-gradient-to-b from-white to-blue-50">
+    <section id="mapa" className="py-20 px-6 bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
