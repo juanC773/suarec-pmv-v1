@@ -6,9 +6,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Logo y descripción */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">SUAREC</h3>
+            <h3 className="text-2xl font-bold mb-4">ArreglaYa</h3>
             <p className="text-gray-400 mb-4 max-w-md">
-              Conectamos expertos con tu hogar. Soluciones rápidas y confiables para plomería, electricidad, cerrajería y más.
+              Servicios de emergencia 24/7. Electricistas y plomeros profesionales para resolver tus problemas rápidamente.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
@@ -73,8 +73,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@suarec.com" className="hover:text-white transition-colors">
-                  info@suarec.com
+                <a href="mailto:info@arreglaya.com" className="hover:text-white transition-colors">
+                  info@arreglaya.com
                 </a>
               </li>
             </ul>
@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © 2025 Suarec. Todos los derechos reservados.
+            © 2025 ArreglaYa. Todos los derechos reservados.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">

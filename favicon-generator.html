@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Generator</title>
+</head>
+<body>
+    <canvas id="canvas" width="32" height="32" style="display: none;"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Crear un círculo de fondo
+        ctx.fillStyle = '#1e40a7';
+        ctx.beginPath();
+        ctx.arc(16, 16, 16, 0, 2 * Math.PI);
+        ctx.fill();
+        
+        // Crear un círculo blanco interno
+        ctx.fillStyle = '#ffffff';
+        ctx.beginPath();
+        ctx.arc(16, 16, 14, 0, 2 * Math.PI);
+        ctx.fill();
+        
+        // Agregar texto "AY" en el centro
+        ctx.fillStyle = '#1e40a7';
+        ctx.font = 'bold 12px Arial';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('AY', 16, 16);
+        
+        // Convertir a data URL
+        const dataURL = canvas.toDataURL('image/png');
+        console.log('Data URL:', dataURL);
+        
+        // Crear un enlace de descarga
+        const link = document.createElement('a');
+        link.download = 'favicon.png';
+        link.href = dataURL;
+        document.body.appendChild(link);
+        link.click();
+    </script>
+</body>
+</html>

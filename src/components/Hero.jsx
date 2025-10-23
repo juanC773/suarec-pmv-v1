@@ -11,7 +11,7 @@ export default function HeroSection() {
       {/* Navigation */}
       <nav className="relative z-20 flex items-center justify-between px-6 py-6 md:px-12">
         <div className="text-white text-3xl font-bold tracking-wide">
-          SUAREC
+          ArreglaYa
         </div>
         <a
           href="#contacto"
@@ -24,12 +24,12 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-20 md:py-32">
         <h1 className="text-white text-5xl md:text-7xl font-extrabold mb-6 leading-tight max-w-5xl">
-          Soluciones para tu hogar
+          Servicios de Emergencia
           <span className="block text-blue-200 mt-2">en minutos</span>
         </h1>
         
         <p className="text-blue-50 text-xl md:text-2xl mb-12 max-w-2xl leading-relaxed font-light">
-          Conectamos expertos en plomería, electricidad, cerrajería y más con personas que necesitan ayuda. Rápido, confiable y profesional.
+          Electricistas y plomeros profesionales disponibles 24/7. Soluciones rápidas para casos de emergencia en tu hogar.
         </p>
 
         {/* CTA Buttons */}

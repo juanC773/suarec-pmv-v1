@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#hero" className="text-2xl font-bold text-blue-600">
-            SUAREC
+            ArreglaYa
           </a>
 
           {/* Desktop Navigation */}

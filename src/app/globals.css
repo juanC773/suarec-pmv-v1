@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* Estilos para favicon redondo */
+link[rel="icon"] {
+  border-radius: 50% !important;
+  clip-path: circle(50%) !important;
+}
+
+/* Estilos adicionales para hacer el favicon redondo */
+.favicon-round {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Forzar que el favicon sea redondo */
+link[rel="shortcut icon"] {
+  border-radius: 50% !important;
+  clip-path: circle(50%) !important;
+}
+
+link[rel="apple-touch-icon"] {
+  border-radius: 50% !important;
+  clip-path: circle(50%) !important;
+}
